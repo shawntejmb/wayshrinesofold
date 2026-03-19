@@ -12,6 +12,6 @@ Event OnActivate(ObjectReference akActionRef)
 				MapMarkers.Disable() ; Disable Vanilla Map Markers
 	EndWhile
 		UI.InvokeString("MapMenu", "_global.skse.OpenMenu", "MapMenu")
-			Input.TapKey(Input.GetMappedKey("Quick Map")) ; Open Map using SKSE Functions 
+		Input.TapKey(Input.GetMappedKey("Quick Map")) ; Open Map using SKSE Functions 
 EndEvent
 
